@@ -1,0 +1,53 @@
+.programs__card {
+  margin-bottom: 20px;
+}
+
+.program {
+  background-color: $basic-grey;
+  padding: 21px 33px 22px 20px;
+}
+
+.program__header {
+  display: flex;
+  align-items: center;
+}
+
+.program__title {
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0;
+
+  &--slim {
+    margin-left: 19px;
+  }
+
+  &--weight {
+    margin-left: 11px;
+  }
+}
+
+.program__text {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: $text-color;
+  border-bottom: 1px solid $line-color;
+  padding-bottom: 23px;
+}
+
+.program__link {
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $main-color;
+
+  &::after {
+    content: url("../../img/arrow.svg");
+    padding-left: 17px;
+  }
+}

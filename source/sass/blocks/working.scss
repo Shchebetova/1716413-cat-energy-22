@@ -1,0 +1,53 @@
+.working {
+  margin-top: 27px;
+  margin-bottom: 46px;
+}
+
+.working__heading {
+  margin-bottom: 38px;
+}
+
+ol {
+  list-style: none;
+  padding-left: 80px;
+}
+
+.working__item {
+  position: relative;
+
+  &--leaf::before {
+    content: url("../../img/icon-leaf.svg");
+  }
+
+  &--tube::before {
+    content: url("../../img/icon-tube.svg");
+  }
+
+  &--eat::before {
+    content: url("../../img/icon-eat.svg");
+  }
+
+  &--alarm::before {
+    content: url("../../img/icon-alarm.svg");
+  }
+
+  &::before {
+    width: 60px;
+    height: 60px;
+    background-color: $button-background;
+    position: absolute;
+    left: -80px;
+    text-align: center;
+    line-height: 80px;
+  }
+}
+
+.working__text {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: $text-color;
+  margin-bottom: 26px;
+}
