@@ -4,7 +4,7 @@
 }
 
 .promo__background {
-  background-image: url("../../img/background-img.jpg");
+  background-image: url("../img/background-img.jpg");
   background-repeat: no-repeat;
   background-size: inherit;
   background-position-x: center;
@@ -18,14 +18,14 @@
 .promo__heading {
   padding-top: 27px;
   padding-bottom: 25px;
-  color: $reverse-color;
+  color: $basic-white;
   text-align: center;
 }
 
 .promo__slogan {
   line-height: 14px;
   text-transform: uppercase;
-  color: $reverse-color;
+  color: $basic-white;
   text-align: center;
 }
 

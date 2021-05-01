@@ -8,32 +8,11 @@
   margin: 0 auto;
 }
 
-.nav__list {
-  padding: inherit;
-  margin: 16px 0 0;
-}
-
-@media (min-width: 1440px) {
-  .page-header__background {
-    background-image: url("../../img/background-max.jpg");
+.page-header__background {
+  @media (min-width: $desktop) {
+    background-image: url("../img/background-max.jpg");
     background-repeat: no-repeat;
     background-position-x: right;
     background-color: $cat-background;
   }
-}
-
-.nav__item {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 20px;
-  text-transform: uppercase;
-  color: $main-color;
-  border-top: 1px solid $border-color;
-  padding-top: 22px;
-  padding-bottom: 24px;
-  text-align: center;
-}
-
-.nav__link {
-  color: $main-color;
 }
