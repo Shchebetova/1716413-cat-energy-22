@@ -1,0 +1,53 @@
+.map__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 0 25px;
+}
+
+.map__heading {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: $invite-color;
+  flex: 1;
+}
+
+.map__address {
+  flex: 1;
+}
+
+.map__text {
+  font-family: $font-arial;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: $text-color;
+  margin: 0;
+}
+
+.map__block {
+  position: relative;
+}
+
+.map__image {
+  display: block;
+  margin: 0 auto;
+}
+
+.map__pin {
+  position: absolute;
+  top: 135px;
+  left: 50%;
+  transform: translate(-27px);
+}
+
+.map__scheme {
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 362px;
+  top: 0;
+  border: none;
+  z-index: 1;
+}

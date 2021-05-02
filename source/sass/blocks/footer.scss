@@ -1,0 +1,66 @@
+.footer {
+  background-color: $basic-grey;
+}
+
+.footer__logo {
+  display: block;
+  text-align: center;
+  padding-top: 39px;
+  padding-bottom: 32px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.footer__socials {
+  @include clear-list;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid $line-color;
+  border-bottom: 1px solid $line-color;
+}
+
+.footer__social-link {
+  padding: 0 18px;
+  fill: $socials-color;
+
+  &--facebook {
+    stroke: $socials-color;
+
+    &:hover {
+      stroke: $hover-button-background;
+    }
+  }
+
+  &:hover {
+    fill: $hover-button-background;
+  }
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0;
+
+  &:hover .footer__icon-htmlacademy {
+    fill: $hover-button-background;
+  }
+}
+
+.footer__copyright-name {
+  margin: 0;
+  font-family: $font-arial;
+  font-size: 16px;
+  line-height: 18px;
+  color: $text-color;
+}
+
+.footer__icon-htmlacademy {
+  fill: $socials-color;
+  width: 27px;
+  height: 34px;
+}
